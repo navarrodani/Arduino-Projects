@@ -48,7 +48,9 @@ void loop() {
     lcd.print(servo_position);
     lcd.print((char)223);
     lcd.setCursor ( 0, 1 );
-    lcd.print("N PHOTOS:  ");
+    lcd.print("N");
+    lcd.print((char)223);
+    lcd.print("PHOTOS:  ");
     lcd.print(fotos);
     delay(time_interval);
       }
@@ -63,7 +65,9 @@ void loop() {
     lcd.print(servo_position);
     lcd.print((char)223);
     lcd.setCursor ( 0, 1 );
-    lcd.print("N PHOTOS:  ");
+     lcd.print("N");
+    lcd.print((char)223);
+    lcd.print("PHOTOS:  ");
     lcd.print(fotos);
     delay(time_interval);
       }
